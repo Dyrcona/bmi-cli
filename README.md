@@ -45,7 +45,7 @@ it from the current directory if your configuration allows it.
 
 ## Usage
 
-<p><code>
+<pre>
 Usage: bmi [options]
 
 Options:
@@ -58,7 +58,7 @@ Options:
                              for SI.
   --bmi <bmi>                Indicate the goal BMI for your height.--Mutually
                              exclusive with weight.
-</code></p>
+</pre>
 
 Play with it.  You'll figure it out.
 
