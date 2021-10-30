@@ -18,7 +18,7 @@
 #include <QCoreApplication>
 #include <QCommandLineParser>
 #include <QTextStream>
-#include <math.h>
+#include <cmath>
 #include "BMICalculator.h"
 #include "parseCommandLine.h"
 
@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
     value = calc.calculateWeightForBMI(options.height, options.bmi);
   else
     value = calc.calculateBMI(options.height, options.weight);
-  cout << roundf(value * 10) / 10 << '\n';
+  cout << std::roundf(value * 10) / 10 << '\n';
 
   return 0;
 }
