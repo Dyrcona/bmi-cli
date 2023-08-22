@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------
-# Copyright © 2020 Jason J.A. Stephenson <jason@sigio.com>
+# Copyright © 2020, 2023 Jason J.A. Stephenson <jason@sigio.com>
 #
 # This file is part of bmi-cli.
 #
@@ -18,3 +18,4 @@ TARGET = bmi
 TEMPLATE = app
 SOURCES += main.cpp BMICalculator.cpp parseCommandLine.cpp
 HEADERS += BMICalculator.h parseCommandLine.h
+DEFINES += QT_DISABLE_DEPRECATED_UP_TO=0x050F00
